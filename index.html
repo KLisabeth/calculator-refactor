@@ -1,7 +1,9 @@
 <html>
 
 <head>
-
+  <meta charset="utf-8" />
+  <title>calculator-refactor</title>
+  <link rel="stylesheet" href="style.css">
   <!-- this script is to help evaluate your deployed project -->
   <script src='./dependencies/evaluation.js'></script>
   <!-- this is the testing function for your logic -->
@@ -10,7 +12,28 @@
 </head>
 
 <body>
+  <div class=box>
+    <div class="container">
+    <div class="header">Calculator</div>
+   <form>
+       <span>Value 1:</span><input type="text" id="value1"><br>
+       <span>Value 2:</span><input type="text" id="value2"><br>
+       <span>Operator:</span>
+        <select id="operator">
+           <option value="add">Add</option>
+           <option value="min">Minus</option>
+           <option value="div">Divide</option>
+           <option value="mul">Multiply</option>
+        </select>
+       <button type="button" onclick="calc()">Calculate</button>
+    </form>
+    <span>Result:</span>
+    <div id="result"></div>
+   </div>
+ </div>
 
 </body>
-
+  <script src="./scripts/handler.js"></script>
+  <script src="./scripts/listener.js"></script>
+  <script src="./scripts/logic.js"></script>
 </html>
