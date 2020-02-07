@@ -47,7 +47,7 @@ function doMath(operation, a, b) {
      calculate = a * b;
  }
   
-return true;
+return calculate;
 
 }
 
