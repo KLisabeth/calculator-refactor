@@ -1,1 +1,1 @@
-document.querySelector("#result").addEventListener("click", calc);
+document.querySelector("#result").addEventListener( onclick, calculate);
