@@ -50,7 +50,7 @@ wireframe [link](https://wireframe.cc/NPHygE)
 
 | syntax | parameters | return value | behavior |
 | --- | --- | --- | --- |
-| calc() | | | |
+| click |  | | |
 
 ## Logic
 

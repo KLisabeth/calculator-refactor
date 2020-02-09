@@ -4,7 +4,7 @@ function calc() {
   var b = parseInt(document.querySelector('#value2').value);
   var op = document.querySelector('#operator').value;
   // pass user input through core logic
-  const result = doMath(op, x, y); // leave this line!
+  const result = doMath(op, a, b); // leave this line!
   var calculate;
 
   if (op == "add") {
@@ -17,7 +17,7 @@ function calc() {
     calculate = a * b;
  }
   // render output to DOM for user
-document.querySelector("#result").innerHTML = calculate;
+document.querySelector("#result").innerHTML = result;
   // log user action for developers
 console.log(calculate);
   // return true for the browser

@@ -21,10 +21,10 @@ const doMathTests = [
 ];
 
 // refactor the logic from the calculator tutorial into this function
-function doMath(operation, a, b) {
+function doMath(op, a, b) {
   // these if statements make sure all arguments are the correct type
   // they will throw errors if your handler passes the wrong type arguments
-  if (typeof operation !== 'string') {
+  if (typeof op !== 'string') {
     throw new Error('operation should be a string');
   }
   if (typeof a !== 'number') {
