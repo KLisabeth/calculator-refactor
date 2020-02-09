@@ -17,6 +17,9 @@ const doMathTests = [
   { name: 'invalid - 2', args: ['book', 0, 0], expected: 'invalid operation' },
   { name: 'invalid - 3', args: ['minus', 0, 0], expected: 'invalid operation' },
   // write 7 more test cases for doMath
+  { name: 'div - 4', args: ['div', 4, 4], expected: 1 },
+  { name: 'div - 5', args: ['div', 5, 1], expected: 5 },
+  { name: 'div - 6', args: ['div', 6, 2], expected: 3 },
 
 ];
 
